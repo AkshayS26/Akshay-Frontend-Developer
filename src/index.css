@@ -29,7 +29,7 @@
   @apply border-2 border-white py-2 px-10 inline-block text-white;
 }
 .showcase {
-  background: url("./hero.jpg") no-repeat center/cover;
+  background: url("/hero.jpg") no-repeat center/cover;
   /* height: calc(150vh - 0.1px); */
 }
 
