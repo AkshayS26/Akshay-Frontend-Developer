@@ -10,9 +10,15 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/rockets" element={<Rockets />} />
+        <Route
+          path="https://akshay-frontend-developer.vercel.app//rockets"
+          element={<Rockets />}
+        />
         <Route path="/rockets/:id" element={<SingleRocket />} />
-        <Route path="/capsules" element={<Capsules />} />
+        <Route
+          path="https://akshay-frontend-developer.vercel.app//capsules"
+          element={<Capsules />}
+        />
         <Route path="*" element={<Error />} />
       </Routes>
     </>
